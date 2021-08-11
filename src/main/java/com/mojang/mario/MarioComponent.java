@@ -257,7 +257,7 @@ public class MarioComponent extends JComponent implements Runnable, KeyListener,
     {
         scene = mapScene;
         mapScene.startMusic();
-        Mario.lives--;
+        Mario.lives++;
         if (Mario.lives == 0)
         {
             lose();
